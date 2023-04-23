@@ -1,0 +1,47 @@
+footer{
+background-color: black;
+color: white;
+
+}
+#redes{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    }
+.red{
+    height: 30px;
+
+}
+
+#banner{
+    display: flex;
+    flex-direction: column;   
+}
+#navlist{
+    display: flex;
+    justify-content: center
+}
+#search{
+    display: flex;
+    justify-content: center
+}
+#div id="catalogo"{
+    width: auto%;
+    height: auto%;
+}
+#catalogo{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+}
