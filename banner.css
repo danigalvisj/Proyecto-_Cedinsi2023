@@ -16,7 +16,56 @@
       transform: translateX(0%);
     }
   }
-  
+
   .banner img {
     animation: slide-in 1s ease-in-out forwards;
   }
+
+#redes{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    }
+
+.red{
+    height: 20px;
+    margin-right: 10px;
+    margin-top: 8px;
+}
+
+#navlist{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.search-container {
+    margin: 0 auto;
+}
+
+.search-container input[type=text] {
+  padding: 10px 250px;
+  }
+
+.search-container button[type=search] {
+  border:black;
+  color: rgba(255, 255, 255, 0.767);
+  padding: 10px 25px;
+  position: relative;
+  left: 60px;
+}
+
+.search-container button[type=search]:hover {
+  background-color: rgba(255, 255, 255, 0.767);
+}
+
+.search-container button[type=search] img {
+  height: 16px;
+  width: 16px;
+
+}
+
+.buscar{
+    display: flex;
+    flex-wrap: nowrap;
+}
