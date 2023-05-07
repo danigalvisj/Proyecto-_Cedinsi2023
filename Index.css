@@ -29,20 +29,43 @@ footer{
 }
 
 h1{
-display: inline;
-display: flex;
-justify-content: space-around
-font-family:'Teko', sans-serif;
-font-size:15px
-font-style:backdrop
+    display: inline;
+    display: flex;
+    justify-content: space-around;
+    font-size:12px;
+    font-family: 'Nunito Sans', sans-serif;
+    letter-spacing: 5px;
 }
 
+h2{
+    display: inline;
+    display: flex;
+    justify-content: space-around;
+    font-size:12px;
+    font-family: 'Roboto', sans-serif;
+}
 
 iframe{
 width:40%;
 height:40%;
-
 }
 
+.imagen-hover {
+    transition: transform .2s ease-in-out;
+}
 
+.imagen-hover:hover {
+    transform: scale(1.2);
+  }
+
+th,td{
+    padding-top: 40px;
+    padding-right: 40px;
+    padding-right: 40px;
+    text-align: center;
+}
+
+table {
+    margin: 0 auto;
+  }
 
