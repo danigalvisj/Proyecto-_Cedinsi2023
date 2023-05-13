@@ -1,8 +1,3 @@
-.header{
-    width: 100%;
-    margin: 0 auto;
-}
-
 .banner{
    width: 100%;
 }
@@ -44,49 +39,26 @@
     text-align: center;
 }
 
-.buscar{
- display: inline;
-}
-
 #logo{
     position: relative;
-    margin-left: 80px;
+    margin-left: 20px;
   }
 
-.search-container {
-    margin: 0 auto;
-}
-
-#div id="buscar"{
-    display: flex;
-    justify-content: space-around;
-}
-
-
-
 .form-control-sm{
-width:600px;
-height: 50px;
-display: flex;
- }
-
-
-
+    width:600px;
+    height: 50px;
+}
 
 #div id="catalogo"{
     margin: 0 auto;
     width: 100%;
     height: 100%;
-    
 }
-.menu{
-    width: 100%;
-    height: 100%;
-}
+
 footer{
     background-color: black;
     color: white;
-    padding: 100px 0;
+    padding: 30px 0;
 }
 
 .container-fluid{
@@ -120,18 +92,13 @@ h2{
     font-family: 'Roboto', sans-serif;
 }
 
-iframe{
-width:40%;
-height:40%;
-}
-
 .imagen-hover {
     transition: transform .2s ease-in-out;
 }
 
 .imagen-hover:hover {
     transform: scale(1.2);
-  }
+}
 
 th,td{
     padding-top: 40px;
@@ -142,10 +109,32 @@ th,td{
 
 table {
     margin: 0 auto;
-  }
+}
 
-  .input-group-text{
+#div class="container text-center"{
+    height: 1000px%
+}
+
+#videoproducto1{
+padding-top: 30px;
+padding-bottom: 30px;
+width: 100%;
+height: 500px;
+}
+
+#videoproducto2{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 100%;
+    height: 500px;
+}
+    
+iframe{
+    width:40%;
+    height:40%;
+}
+
+.input-group-text{
     background-color: black;
     color:white;
-  }
-
+}
