@@ -44,9 +44,24 @@
     margin-left: 20px;
   }
 
+
+.col-5{
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  width: 680px;
+  height: 50px;
+ 
+}
+
 .form-control-sm{
     width:600px;
-    height: 50px;
+    height: 30px;
+    border: none;
+    margin-top: 10px;
+   
+}
+
 }
 
 #div id="catalogo"{
@@ -59,20 +74,6 @@ footer{
     background-color: black;
     color: white;
     padding: 30px 0;
-}
-
-.container-fluid{
-    margin: 0 auto;
-}
-
-.row justify-content-center{
-    display: flex;
-    justify-content: space-between;
-}
-
-.col-md-4{
-    width: 25%
-    display inline
 }
 
 h1{
@@ -111,10 +112,6 @@ table {
     margin: 0 auto;
 }
 
-#div class="container text-center"{
-    height: 1000px%
-}
-
 #videoproducto1{
 padding-top: 30px;
 padding-bottom: 30px;
@@ -134,7 +131,8 @@ iframe{
     height:40%;
 }
 
-.input-group-text{
-    background-color: black;
-    color:white;
-}
+.form-control{
+    width:80px;
+    height: 40px;
+    border: none;
+}   
