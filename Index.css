@@ -33,12 +33,6 @@
     margin-top: 8px;
 }
 
-#navlist{
-    display: flex;
-    justify-content: space-evenly;
-    text-align: center;
-}
-
 #logo{
     position: relative;
     margin-left: 20px;
@@ -62,7 +56,6 @@
    
 }
 
-}
 
 #div id="catalogo"{
     margin: 0 auto;
@@ -136,3 +129,26 @@ iframe{
     height: 40px;
     border: none;
 }   
+
+.menu{
+      list-style-type: none
+      margin:0;
+      padding:0;
+}
+
+.menu li{
+display:none
+margin-right: 10px;
+}
+
+.menu li a{
+text-decoration: none;
+color:#333
+padding:5px 10px;
+}
+
+.menu li a:hover{
+    background-color: #333;
+    color:#fff;
+}
+
