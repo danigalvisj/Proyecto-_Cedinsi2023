@@ -1,0 +1,11 @@
+#menu.show ul{
+    display: block
+}
+
+#menu ul{
+    display: none;
+}
+
+#menu li a {
+    text-decoration:none;
+}
