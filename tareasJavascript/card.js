@@ -19,7 +19,7 @@ const infoProductos = [
 let card = document.getElementById("card");
 infoProductos.forEach(function (producto) {
     console.log(producto);
-
+    let creartarjeta = document.createElement("div");
     let titulo = document.createElement("h1");
     let descripcion = document.createElement("p");
     let precio = document.createElement("span");
@@ -28,8 +28,9 @@ infoProductos.forEach(function (producto) {
     descripcion.textContent = producto.descripcion;
     precio.textContent = producto.precio;
     imagen.src = producto.imagen;
-    card.appendChild(titulo);
-    card.appendChild(descripcion);
-    card.appendChild(precio);
-    card.appendChild(imagen);
+    creartarjeta.appendChild(titulo);
+    creartarjeta.appendChild(descripcion);
+    creartarjeta.appendChild(precio);
+    creartarjeta.appendChild(imagen);
+    card.appendChild(creartarjeta);
 })
