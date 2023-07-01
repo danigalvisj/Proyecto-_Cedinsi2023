@@ -185,7 +185,7 @@ function llenarArregloFibonacci() {
 
   for (let i = 2; i < 100; i++) {
     let numeroFibonacci = ArregloFibonacci[i - 1] + ArregloFibonacci[i - 2];
-    arreglo.push(numeroFibonacci);
+    ArregloFibonacci.push(numeroFibonacci);
   }
 
   return ArregloFibonacci;
@@ -207,15 +207,14 @@ function llenarArreglo100NumerosPares() {
     return cienNumerosPares;
   }
 
-  let sumaPares = 2
-  for (let i = 0; i <= 100; i++) {
-    sumaPares++;
+  let sumaPares = 0
+  for (let i = 2; i <= 100; i++) {
+    sumaPares+=cienNumerosPares[i];
   }
   return sumaPares
 }
 
-console.log("El arreglo de los primeros 100 números pares es:" + cienNumerosPares);
-console.log(sumaPares);
+//console.log(sumaPares);
 
 /*Llenar un arreglo de tamaño n que se llene con números ingresados por el
 usuario y determine cantidad de positivos y negativos*/
@@ -249,9 +248,9 @@ function contarPositivosNegativos(ArregloNumeros) {
   };
 }
 
-var tamanoPositivosNegativos = parseInt(prompt("Ingrese el tamaño del arreglo:"));
-var numerosPositivosNegativos = llenarArregloNumeros(tamanoPositivosNegativos);
-var resultadoPositivosNegativos = contarPositivosNegativos(numerosPositivosNegativos);
+let tamanoPositivosNegativos = parseInt(prompt("Ingrese el tamaño del arreglo:"));
+let numerosPositivosNegativos = llenarArregloNumeros(tamanoPositivosNegativos);
+let resultadoPositivosNegativos = contarPositivosNegativos(numerosPositivosNegativos);
 
 console.log("Cantidad de números positivos: " + resultadoPositivosNegativos.positivos);
 console.log("Cantidad de números negativos: " + resultadoPositivosNegativos.negativos);

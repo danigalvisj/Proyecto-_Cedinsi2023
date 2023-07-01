@@ -30,8 +30,8 @@ de entrada*/
 
 let numero1 = 15;
 let numero2 = 6;
-let resultadoSuma = numero1 + numero2;
-console.log("Suma:" + resultadoSuma);
+let resultadoSuma1 = numero1 + numero2;
+console.log("Suma:" + resultadoSuma1);
 let resultadoResta = numero1 - numero2;
 console.log("Resta:" + resultadoResta);
 let resultadoMultiplicacion = numero1 * numero2;
