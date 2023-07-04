@@ -1,7 +1,7 @@
 const infoProductos = [
     {
         titulo: "Caminador Mecánico Plegable",
-        imagen: "imagenes_proyecto/caminadora.png",
+        imagen: "ProyectoCedinsi2023/imagenes_proyecto/caminadora.png",
         descripcion: "El caminador mecánico Sportfitness es ideal para tu entrenamiento cardiovascular. Los beneficios de las caminadoras incluyen el fortalecimiento de piernas, incrementar tu energía, y prevención de enfermedades. El caminador mecánico Sportfitness es plegable y no requiere energía ideal para tu hogar.",
         precio: "$1.319.200",
         cantidad: 20,
@@ -9,17 +9,18 @@ const infoProductos = [
 
     {
         titulo: "Banda Caminadora Versalles",
-        imagen: "imagenes_proyecto/caminadora.png",
+        imagen: "ProyectoCedinsi2023/imagenes_proyecto/caminadora.png",
         descripcion: "Caminadora electrónica Sportfitness ideal para tu entrenamiento cardiovascular. Los beneficios de las caminadoras incluyen el fortalecimiento de piernas, incrementar tu energía y prevención de enfermedades. La Banda Caminadora Versalles Sportfitness es plegable, ideal para tu hogar.",
         precio: "$1.725.500",
         cantidad: 25,
     },
 ]
 
+
 let card = document.getElementById("card");
 infoProductos.forEach(function (producto) {
     console.log(producto);
-    let creartarjeta = document.createElement("div");
+    let tarjeta= document.createElement("div");
     let titulo = document.createElement("h1");
     let descripcion = document.createElement("p");
     let precio = document.createElement("span");
@@ -28,9 +29,10 @@ infoProductos.forEach(function (producto) {
     descripcion.textContent = producto.descripcion;
     precio.textContent = producto.precio;
     imagen.src = producto.imagen;
-    creartarjeta.appendChild(titulo);
-    creartarjeta.appendChild(descripcion);
-    creartarjeta.appendChild(precio);
-    creartarjeta.appendChild(imagen);
-    card.appendChild(creartarjeta);
+    tarjeta.appendChild(titulo);
+    tarjeta.appendChild(descripcion);
+    tarjeta.appendChild(precio);
+    tarjeta.appendChild(imagen);
+    card.appendChild(tarjeta)
 })
+    

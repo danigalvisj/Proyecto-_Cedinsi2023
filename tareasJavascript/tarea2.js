@@ -209,7 +209,7 @@ function llenarArreglo100NumerosPares() {
 
   let sumaPares = 0
   for (let i = 2; i <= 100; i++) {
-    sumaPares+=cienNumerosPares[i];
+    sumaPares += cienNumerosPares[i];
   }
   return sumaPares
 }
