@@ -1,7 +1,7 @@
 const infoProductos = [
     {
         titulo: "Caminador Mecánico Plegable",
-        imagen: "ProyectoCedinsi2023/imagenes_proyecto/caminadora.png",
+        imagen: "imagenes_proyecto/caminadora.png",
         descripcion: "El caminador mecánico Sportfitness es ideal para tu entrenamiento cardiovascular. Los beneficios de las caminadoras incluyen el fortalecimiento de piernas, incrementar tu energía, y prevención de enfermedades. El caminador mecánico Sportfitness es plegable y no requiere energía ideal para tu hogar.",
         precio: "$1.319.200",
         cantidad: 20,
@@ -9,7 +9,7 @@ const infoProductos = [
 
     {
         titulo: "Banda Caminadora Versalles",
-        imagen: "ProyectoCedinsi2023/imagenes_proyecto/caminadora.png",
+        imagen: "imagenes_proyecto/caminadora.png",
         descripcion: "Caminadora electrónica Sportfitness ideal para tu entrenamiento cardiovascular. Los beneficios de las caminadoras incluyen el fortalecimiento de piernas, incrementar tu energía y prevención de enfermedades. La Banda Caminadora Versalles Sportfitness es plegable, ideal para tu hogar.",
         precio: "$1.725.500",
         cantidad: 25,
