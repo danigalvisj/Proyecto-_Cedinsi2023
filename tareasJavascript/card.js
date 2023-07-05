@@ -21,10 +21,15 @@ let card = document.getElementById("card");
 infoProductos.forEach(function (producto) {
     console.log(producto);
     let tarjeta= document.createElement("div");
+    tarjeta.classList.add("card-body");
     let titulo = document.createElement("h1");
+    tarjeta.classList.add("card-title");
     let descripcion = document.createElement("p");
+    tarjeta.classList.add("card-tex");
     let precio = document.createElement("span");
+    tarjeta.classList.add("card-tex");
     let imagen= document.createElement("img");
+    tarjeta.classList.add("col-md-4");
     titulo.textContent = producto.titulo;
     descripcion.textContent = producto.descripcion;
     precio.textContent = producto.precio;
